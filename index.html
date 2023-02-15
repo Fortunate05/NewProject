@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Expense Tracker App</h2>
+    <div class="container">
+      <h4>Your balance</h4>
+      <h1 id="balance">R 0</h1>
+      <div class="inc-exp-container">
+        <div>
+          <h4>income</h4>
+          <p id="money-plus" class="money plus">R0.00</p>
+        </div>
+        <div>
+          <h4>expense</h4>
+          <p id="money-minus" class="money minus">R 0.00</p>
+        </div>
+      </div>
+      <h3>History</h3>
+      <ul id="list" class="list">
+      </ul>
+      <h3>Add New Transation</h3>
+      <form action="" id="form">
+        <div class="form-control">
+          
+          <input type="text" id="text" placeholder="Please enter expense" />
+        </div>
+        <div class="form-control">
+          <label for="amount"
+            ></label
+          >
+          <input
+            type="number"
+            id="amount"
+            placeholder="Please enter the amount "
+          />
+        </div>
+        <button class="btn">Add transation</button>
+      </form>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
